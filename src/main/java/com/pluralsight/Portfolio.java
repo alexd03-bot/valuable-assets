@@ -13,7 +13,7 @@ public class Portfolio {
 
     public ArrayList<Truck>  getTrucks() {
         ArrayList<Truck> trucks = new ArrayList<>();
-        for ( Valuable v: valuables) {
+        for (Valuable v: valuables) {
             if (v instanceof Truck) {
                 Truck t = (Truck) v;
                 trucks.add(t);

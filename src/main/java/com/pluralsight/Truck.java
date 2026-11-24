@@ -8,5 +8,4 @@ public class Truck extends Vehicle {
         this.cargoTons = cargoTons;
     }
 
-
 }
