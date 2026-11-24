@@ -1,4 +1,5 @@
 package com.pluralsight;
 
-public class BankAccount {
+public interface BankAccount {
+
 }
