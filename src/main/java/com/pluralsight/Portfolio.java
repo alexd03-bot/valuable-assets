@@ -11,5 +11,19 @@ public class Portfolio {
         this.valuables.add(valuable);
     }
 
+    public ArrayList<Truck>  getTrucks() {
+        ArrayList<Truck> trucks = new ArrayList<>();
+        for ( Valuable v: valuables) {
+            if (v instanceof Truck) {
+                Truck t = (Truck) v;
+                trucks.add(t);
+            }
+        }
+        return trucks;
+    }
+
+    public double getValue() {
+        return 0;
+    }
 
 }

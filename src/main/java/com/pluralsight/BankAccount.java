@@ -1,5 +1,5 @@
 package com.pluralsight;
 
-public interface BankAccount {
+public interface BankAccount extends Valuable {
 
 }
